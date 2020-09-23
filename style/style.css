@@ -4,6 +4,8 @@ body{
 .bleu{
     background-color: blue;
     height: 100vh;
+    position: relative;
+    
 }
 .vert{
     background-color: chartreuse;
@@ -12,4 +14,13 @@ body{
 .violet{
     background-color: violet;
     height: 100vh;
+}
+input{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    display: block;
+    height: 50px;
+    width: 200px;
+    margin-left: -100px;
 }
