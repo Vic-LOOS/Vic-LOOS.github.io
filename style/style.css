@@ -10,12 +10,22 @@ body{
 .vert{
     background-color: chartreuse;
     height: 100vh;
+    position: relative;
 }
 .violet{
     background-color: violet;
     height: 100vh;
 }
 input{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    display: block;
+    height: 50px;
+    width: 200px;
+    margin-left: -100px;
+}
+.vert>input{
     position: absolute;
     bottom: 15px;
     left: 50%;
