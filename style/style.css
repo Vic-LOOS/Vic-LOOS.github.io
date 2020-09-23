@@ -1,4 +1,15 @@
 body{
-    background: skyblue;
     margin: 0%;
+}
+.bleu{
+    background-color: blue;
+    height: 100vh;
+}
+.vert{
+    background-color: chartreuse;
+    height: 100vh;
+}
+.violet{
+    background-color: violet;
+    height: 100vh;
 }
